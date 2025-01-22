@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Achievement</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';    
+             padding: 0;
+        }
+
+        .certificate-container {
+            width:91%;
+            max-width: 800px;
+            height:900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fbfdfd;
+            border: 10px double #880c05;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            overflow: hidden;
+            padding:0px;
+        }
+
+        .certificate-container img {
+            height:150px;
+            width:200px;
+            background-color: #f7f2ed;
+        }
+        .heading
+        {
+    
+            margin-top:0px;
+            background-color:rgb(30, 162, 195);
+            height:70px;
+            text-align: center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color:white;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0px;
+        }
+
+        .header h1 {
+            font-size: 40px;
+            font-weight: bold;
+            color: #24221c;
+            margin-top: 0px;
+        }
+
+        .header p {
+            font-size: 25px;
+            color: #6a6363;
+            margin: 5px 0;
+            font-weight: 600;
+        }
+        .content {
+            margin: 10px 0;
+            margin-top: 1px;
+        }
+
+        .content h2 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+            color: #342626;
+            text-decoration: underline;
+            text-decoration-color: #a11c05;
+            text-decoration-thickness: 2px;
+        }
+
+        .content h3 {
+            font-size: 30;
+            color: #1a1a1a;
+            font-weight: 700;
+        }
+
+        .content span {
+            font-size: 23px;
+            color: #1a1a1a;
+            font-weight: 700;
+            text-decoration: underline;
+            text-decoration-color: #840c18;
+            text-decoration-thickness:1px;
+        }
+
+        .content h4 {
+            font-size: 1.2rem;
+            color: #655e5e;
+        }
+
+        .qr-container {
+            position: absolute;
+            margin-right: 15px;
+        }
+
+        .qr-code {
+            width: 60px;
+            height: 80px;
+        }
+
+        .qr-container h4 {
+            margin-top: 0px;
+            padding-left:25px;
+        }
+
+        .footer {
+            margin-top: 5px;
+            font-size: 1rem;
+            color: #252121;
+            text-align:right;
+        }
+
+        .footer p {
+            margin: 0px 5px;
+            padding-right:25px;
+        }
+
+        @media (max-width: 768px) {
+            .certificate-container {
+                width: 90%;
+                padding: 15px;
+            }
+
+            .header h1 {
+                font-size: 2.2rem;
+            }
+
+            .header p {
+                font-size: 1.3rem;
+            }
+
+            .content h2 {
+                font-size: 2.2rem;
+            }
+
+            .content h3 {
+                font-size: 1.5rem;
+            }
+
+            .content span {
+                font-size: 1.3rem;
+            }
+
+            .content h4 {
+                font-size: 1rem;
+            }
+
+            .qr-code {
+                width: 50px;
+                height: 50px;
+            }
+
+            .footer {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .header p {
+                font-size: 1.1rem;
+            }
+
+            .content h2 {
+                font-size: 1.8rem;
+            }
+
+            .content h3 {
+                font-size: 1.2rem;
+            }
+
+            .content span {
+                font-size: 1.1rem;
+            }
+
+            .footer {
+                font-size: 0.8rem;
+            }
+
+            .qr-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .qr-code {
+                width: 50px;
+                height: 50px;
+            }
+
+            .footer img {
+                height: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="certificate-container">
+        <h1 class="heading">Road To Code</h1>
+        <img src="C:\Users\tejas\OneDrive\Desktop\Assignment19\rtc logo.jpg">
+        <p>Road To Code</p>
+        <!-- Header -->
+        <div class="header">
+            <div>
+                <h1>Certificate of Completion</h1>
+                <p>This Certificate is awarded to</p>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <h2>Tejashree Raut</h2>
+            <h3>has successfully completed the online course of FULL STACK DEVELOPMENT <br>
+                This professionalb has demonstrated and a commitment to deepening their skills and advancing their career.well done!
+            </h3>
+            
+        </div>
+        <div class="qr-container">
+            <h4> <br>
+                <br>
+                <br>
+                <i>Issue Date: 1 June 2025 </i>
+            </h4>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <br>
+            <br>
+            <br>
+            <h4> <i>Suraj Shende &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <br>      </i> 
+            Instructor at Road To Code </h4>
+        </div>
+    
+    <div class="endfooter">
+        <br>
+        <br>
+        <br>
+        <img src="C:\Users\tejas\OneDrive\Desktop\Assignment19\mark.png" alt="">
+    
+    </div>
+    </div>
+</body>
+
+</html>
